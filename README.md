@@ -7,26 +7,27 @@
 3. Utilize Latent Class Analysis to identify unlabeled target groups from categorical responses to survey data.
 
 ### Context
-Unsupervised learning is a powerful tool that allows us to better understand the relationships between the rows and columns in our dataset, and improves the capacity for interpretation thanks to dimension reduction. Unsupervised learning can be used in exploratory analysis as a purely informative tool, a method of engineering features for supervised learning, or as a self-contained method of analysis that produces inferences and predictions.
+Having an inadequate sample size or a lack of explanatory variables are often hindrances to performing successful analyses. However, having access to an excessive amount of data can often be an issue as well. When examining data sets with a large number of variables, it can be difficult to uncover patterns within the data set and select a combination of predictors that will identify meaningful signals.
 
-This module focussed on one of the core concepts in the realm of unsupervised learning: clustering techniques.
+Use this PCA technique to reduce the number of variables needed for modeling.
 
 ### Problem Statement
-Use k-means clustering to segment the athletes in the attached data set into meaningful sub-groups based upon performance criteria.
+Perform Principal Component Analysis to analyze the exercise performance variables in an athlete dataset.
+    * Produce a correlation matrix of the variables.
+    * Perform PCA and analyze the VAF by each factor. Include an elbow plot.
+    * Interpret the first loading using loadings plot.
+    * Use a bi plot of the first two factors and loadings and/or other visualizations to identify unique individuals.
 
-**Algorithm Methodology**
-1.  Scale variables (0-1) to avoid bias created by variables with different scales.  
-2.  Pick k number of clusters and randomly divide observations into those k groups.
-3.  Calculate the centroid for each cluster.
-4.  Calculate the Euclidean distance between every observation and every centroid. 
-    Assign each observation to the cluster which has the closest centroid.
-5.  Iterate until the clusters stop changing.
-6.  Determine number of clusters to use by incorporating the "Elbow" plot.  
-7.  Return centroid values to original scale for better result interpretation. 
-8.  Plot cluster assignments for visual representation
-9.  Interpret results.  
+### Algorithm Methodology
+1.	Load and Scale Data 
+2.	Perform PCA 
+3.	Create Covariance and Correlation Matrices
+4.	Select the Number of Factors
+5.	Plot Factors and Loadings
+6. Extract Insights
+7. Bi plot of Loadings and Component scores
+8. Discussion  
 
 ### Results
-All exploratory and inferential statistical analysis and clustering can be found in the attached [notebook](Module3_HomeWork_Final_Changed_After_Class.R) or [notebook with Graphs](Module3_HomeWork_Final_Changed_After_Class.R.html).  
-
+All code to complete this work is found in the attached [notebook](Module4_HomeWork.R).
 
