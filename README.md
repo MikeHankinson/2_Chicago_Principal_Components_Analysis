@@ -13,10 +13,10 @@ Use this PCA technique to reduce the number of variables needed for modeling.
 
 ### Problem Statement
 Perform Principal Component Analysis to analyze the exercise performance variables in an athlete dataset.
-    * Produce a correlation matrix of the variables.
-    * Perform PCA and analyze the VAF by each factor. Include an elbow plot.
-    * Interpret the first loading using loadings plot.
-    * Use a bi plot of the first two factors and loadings and/or other visualizations to identify unique individuals.
+   * Produce a correlation matrix of the variables.
+   * Perform PCA and analyze the VAF by each factor. Include an elbow plot.
+   * Interpret the first loading using loadings plot.
+   * Use a bi plot of the first two factors and loadings and/or other visualizations to identify unique individuals.
 
 ### Algorithm Methodology
 1.	Load and Scale Data 
