@@ -31,3 +31,6 @@ Perform Principal Component Analysis to analyze the exercise performance variabl
 ### Results
 All code to complete this work is found in the attached [notebook](Module4_HomeWork.R).
 
+
+
+![](Pictures/Rplot.png)                ![](Pictures/Rplot01.png)
